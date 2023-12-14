@@ -1,4 +1,8 @@
 ﻿using LearnDesignPatterns;
 
-NewClass newClass = new NewClass();
-newClass.ExampleMethod();
+Singleton singletonA = Singleton.GetInstance();
+Singleton singletonB = Singleton.GetInstance();
+if (singletonA == singletonB)
+{
+    Console.WriteLine("They are the same");
+}
