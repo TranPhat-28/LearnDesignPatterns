@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LearnDesignPatterns;
 
 namespace LearnDesignPatterns
 {
@@ -41,3 +42,5 @@ namespace LearnDesignPatterns
         }
     }
 }
+
+// Think of this the same way as Prototype in JavaScript
