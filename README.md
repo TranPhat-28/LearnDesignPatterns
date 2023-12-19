@@ -16,5 +16,10 @@ Builder is a creational design pattern that lets you construct complex objects s
 
 _**Keyword:** Step by step_
 
+### 4. Factory:
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. In simple terms, the Factory defines a method, which should be used for creating objects instead of using a direct constructor call (new operator).
+
+_**Keyword:** A create method_
+
 ## Structural Patterns: How objects relate to each other
 ## Behavioral Patterns: How objects communicate with each other
