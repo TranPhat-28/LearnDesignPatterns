@@ -29,4 +29,9 @@ Facade is a structural design pattern that provides a simplified (but limited) i
 
 _**Keyword:** A simple interface_
 
+### 2. Proxy:
+Proxy is a structural design pattern that provides an object that acts as a substitute for a real service object used by a client. A proxy receives client requests, does some work (access control, caching, etc.) and then passes the request to a service object.
+
+_**Keyword:** Substitute_
+
 ## Behavioral Patterns: How objects communicate with each other
