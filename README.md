@@ -1,6 +1,7 @@
 # Learn Design Patterns
 
 ## Creational Patterns: How objects are created
+
 ### 1. Singleton:
 Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
@@ -22,4 +23,10 @@ Factory Method is a creational design pattern that provides an interface for cre
 _**Keyword:** A create method_
 
 ## Structural Patterns: How objects relate to each other
+
+### 1. Facade:
+Facade is a structural design pattern that provides a simplified (but limited) interface to a complex system of classes, library or framework.
+
+_**Keyword:** A simple interface_
+
 ## Behavioral Patterns: How objects communicate with each other
