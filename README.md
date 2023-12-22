@@ -35,3 +35,8 @@ Proxy is a structural design pattern that provides an object that acts as a subs
 _**Keyword:** Substitute_
 
 ## Behavioral Patterns: How objects communicate with each other
+
+### 1. Observer:
+Observer is a behavioral design pattern that allows some objects to notify other objects about changes in their state.
+
+_**Keyword:** Subscribe and notify_

@@ -27,5 +27,19 @@
 // }
 
 /* FACADE */
-Facade facade = new Facade(new WaterSubsystem {}, new ElectricalSubsystem {});
-Console.WriteLine(facade.FacadeModeA());
+// Facade facade = new Facade(new WaterSubsystem {}, new ElectricalSubsystem {});
+// Console.WriteLine(facade.FacadeModeA());
+
+var subject = new Subject();
+
+var observerA = new ConcreteObserverA();
+
+subject.Attach(observerA);
+
+var observerB = new ConcreteObserverB();
+
+subject.Attach(observerB);
+
+subject.ExampleOperation();
+
+subject.Detach(observerB);
